@@ -7,7 +7,8 @@ import logoImg from "../../../assets/logo.png";
 
 export default function Home() {
   const history = useHistory();
-
+ 
+  
   const empresaName = localStorage.getItem("nomeEmpresa");
   function handleLogout() {
     localStorage.clear();
@@ -20,7 +21,7 @@ export default function Home() {
         <img src={logoImg} alt="Checkpoint" />
 
         <span>Bem vinda, {empresaName}</span>
-        <Link className="button" to="/login-dono">
+        <Link className="button">
           Gerenciador
         </Link>
         <button onClick={handleLogout} type="button">
@@ -41,8 +42,8 @@ export default function Home() {
         <Link className="button" to="/entregas">
           Entregas
         </Link>
-        <Link className="button" to="/check-list">
-          Check list
+        <Link className="button" to="/relatorios-renda">
+          Relatórios
         </Link>
         <Link className="button" to="/help">
           Help

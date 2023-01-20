@@ -3,7 +3,7 @@ import  {Link,useHistory} from "react-router-dom";
 import { FiPower, FiTrash2 } from "react-icons/fi";
 import { FaWhmcs } from "react-icons/fa"
 
-import "./style.css";
+import "./styleentrega.css";
 
 import logoImg from "../../../assets/logo.png"
 

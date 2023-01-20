@@ -51,7 +51,7 @@ export default function RelatorioM() {
       <header>
         <img src={logoImg} alt="Checkpoint" />
         <span>Bem vinda, {empresaName}</span>
-        <Link className="button" to="/painel-gerente">
+        <Link className="button" to="/painel-vendedor">
           Menu
         </Link>
 
