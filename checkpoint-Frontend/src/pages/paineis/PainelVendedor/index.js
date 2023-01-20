@@ -42,9 +42,7 @@ export default function Home() {
         <Link className="button" to="/entregas">
           Entregas
         </Link>
-        <Link className="button" to="/relatorios-renda">
-          Relatórios
-        </Link>
+        
         <Link className="button" to="/help">
           Help
         </Link>

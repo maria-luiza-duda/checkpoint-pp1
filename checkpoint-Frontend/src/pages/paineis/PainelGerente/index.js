@@ -17,7 +17,7 @@ export default function Home() {
   return (
     <div className="profile-container">
       <header>
-        <img src={logoImg} alt="Checkpoint" />
+        <img src={logoImg} alt="Checkpoint"  />
         <span>Bem vinda, {empresaName}</span>
         <Link className="button" to="/painel-vendedor">
           Funcionário
