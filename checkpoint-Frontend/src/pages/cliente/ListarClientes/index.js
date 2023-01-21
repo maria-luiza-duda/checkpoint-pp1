@@ -55,7 +55,7 @@ export default function Cliente() {
     localStorage.setItem('idClie', id);
   }
   return (
-    <div className="profile-container">
+    <div className="profile-containercli">
       <header>
         <img src={logoImg} alt="Checkpoint" />
         <span>Bem vinda, {empresaName}</span>

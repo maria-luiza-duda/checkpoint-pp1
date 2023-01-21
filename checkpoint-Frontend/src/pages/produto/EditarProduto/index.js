@@ -47,7 +47,7 @@ export default function NewIncident() {
   return (
     <div>
     {modalVisible ? <Modal onClose={() => setModalVisible(false)} title={mensagemModal} /> : null}
-    <div className="new-vaga-container">
+    <div className="new-vaga-containerprod">
       <div className="conteiner">
         <section>
           <img src={logoImg} alt="Checkpoint" />

@@ -58,10 +58,10 @@ export default function Home() {
     localStorage.setItem('idItem', id);
   }
   return (
-    <div className="profile-container">
+    <div className="profile-containercheck">
       <header>
         <div className="divTest">
-          <img src={logo} alt="Checkpoint" />
+        <a href="/painel-vendedor"><img src={logo} alt="Checkpoint" /></a>
           <span>Bem vinda, {empresaName}</span>
         </div>
         <Link className="button" to="/novo-check-list">

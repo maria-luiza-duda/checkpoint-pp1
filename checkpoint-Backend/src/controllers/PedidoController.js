@@ -25,8 +25,8 @@ module.exports = {
       .first();
 
       
-      const newQunatidade = produto.quantidade - quantidade
-      await connection('Produtos').update("quantidade",newQunatidade)
+      const newQuantidade = produto.quantidade - quantidade
+      await connection('Produtos').update("quantidade",newQuantidade)
 
     const [id] = await connection("Pedido").insert({
       cpfDoComprador,

@@ -1,33 +1,33 @@
-.profile-container{
+.profile-containercheck{
   width: 100%;
   max-width: 1180px;
   padding: 0 30px;
 
   margin: 32px auto;
 }
-.profile-container header {
+.profile-containercheck header {
   display: flex;
   align-items: center;
   justify-content: space-between;
 } 
-.profile-container header span {
+.profile-containercheck header span {
   font-size: 20px;
   margin-left: 24px;
 }
-.profile-container header img{
+.profile-containercheck header img{
   height: 64px;
 }
 .divTest {
   display: flex;
   align-items: center;
 }
-.profile-container header a {
+.profile-containercheck header a {
   width: 260px;
   margin-left: auto;
   margin-top: 0;
 
 }
-.profile-container header button{
+.profile-containercheck header button{
   height: 60px;
   width: 60px;
   border-radius: 4px;
@@ -37,20 +37,20 @@
   transition: border-color 0.2s;
 
 }
-.profile-container header button:hover {
+.profile-containercheck header button:hover {
   border-color: #999;
 }
-.profile-container h1 {
+.profile-containercheck h1 {
   margin-top: 80px;
   margin-bottom: 24px;
 }
-.profile-container ul {
+.profile-containercheck ul {
   display: grid;
   grid-template-columns: 1fr;
   grid-gap : 24px;
   list-style: none;
 }
-.profile-container ul li {
+.profile-containercheck ul li {
   display:flex;
   flex-direction: row;
   justify-content: space-around;
@@ -60,25 +60,25 @@
   border-radius: 8px;
   position: relative;
 }
-.profile-container ul li button {
+.profile-containercheck ul li button {
   position: absolute;
   right: 24px;
   top: 24px;
   border: 0;
   transition: border-color 0.2s;
 }
-.profile-container ul li button:hover{
+.profile-containercheck ul li button:hover{
   opacity:0.8
 }
-.profile-container ul li strong {
+.profile-containercheck ul li strong {
   display: block;
   margin-bottom: 16px;
   color: #41414d;
 }
-.profile-container ul li p + strong{
+.profile-containercheck ul li p + strong{
   margin-top : 32px ;
 }
-.profile-container ul li p {
+.profile-containercheck ul li p {
   color: #737380;
   line-height : 21px;
   font-size : 16px;

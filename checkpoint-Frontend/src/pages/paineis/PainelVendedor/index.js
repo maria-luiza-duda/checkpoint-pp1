@@ -15,7 +15,7 @@ export default function Home() {
   }
 
   return (
-    <div className="profile-container">
+    <div className="profile-containerpven">
       <header>
         <img src={logoImg} alt="Checkpoint" />
 

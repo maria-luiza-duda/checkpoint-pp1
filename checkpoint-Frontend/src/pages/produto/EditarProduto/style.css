@@ -1,4 +1,4 @@
-.new-vaga-container{
+.new-vaga-containerprod{
     width: 100%;
     max-width: 1120px;
     height: 100vh;
@@ -8,7 +8,7 @@
     align-items: center;
     justify-items: center;
 }
-.new-vaga-container .conteiner {
+.new-vaga-containerprod .conteiner {
     width: 100%;
     padding: 96px;
     background: white;
@@ -19,24 +19,24 @@
     justify-content: space-between;
     align-items: center;
 }
-.new-vaga-container .conteiner section{
+.new-vaga-containerprod .conteiner section{
     width: 100%;
     max-width: 380px;
 }
-.new-vaga-container .conteiner section h1 {
+.new-vaga-containerprod .conteiner section h1 {
     margin: 64px 0 32px;
     font-size: 32px;
 }
-.new-vaga-container .conteiner section p {
+.new-vaga-containerprod .conteiner section p {
     font-size: 18px;
     color: #737380;
     line-height: 32px;
 }
-.new-vaga-container .conteiner form{
+.new-vaga-containerprod .conteiner form{
     width: 100%;
     max-width: 450px;
 }
-.new-vaga-container .conteiner form input,
-.new-vaga-container .conteiner form textarea{
+.new-vaga-containerprod .conteiner form input,
+.new-vaga-containerprod .conteiner form textarea{
     margin-top: 8px;
 }

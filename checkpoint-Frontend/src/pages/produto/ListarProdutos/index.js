@@ -51,7 +51,7 @@ export default function Profile() {
     localStorage.setItem("idProd", id);
   }
   return (
-    <div className="profile-container">
+    <div className="profile-containerprod">
      
       <header>
         <img src={logoImg} alt="Checkpoint" />

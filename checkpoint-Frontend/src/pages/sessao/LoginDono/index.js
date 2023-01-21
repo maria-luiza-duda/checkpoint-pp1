@@ -33,7 +33,7 @@ export default function Logon() {
   return (
     <div className="logon-container">
       <section className="form">
-      <img src={logoImg} className="imgLogo" alt="Checkpoint"></img>
+      <a href="/painel-vendedor"><img src={logoImg} className="imgLogo" alt="Checkpoint"></img></a>
       <form onSubmit={handleLogin}>
           <h1>Digite seu ID</h1>
           <input placeholder="Seu ID de Dono"

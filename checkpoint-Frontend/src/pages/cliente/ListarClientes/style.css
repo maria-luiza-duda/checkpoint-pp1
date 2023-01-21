@@ -1,29 +1,29 @@
-.profile-container{
+.profile-containercli{
     width: 100%;
     max-width: 1180px;
     padding: 0 30px;
 
     margin: 32px auto;
 }
-.profile-container header {
+.profile-containercli header {
     display: flex;
     align-items: center;
 
 } 
-.profile-container header span {
+.profile-containercli header span {
     font-size: 20px;
     margin-left: 24px;
 }
-.profile-container header img{
+.profile-containercli header img{
     height: 64px;
 }
-.profile-container header a {
+.profile-containercli header a {
     width: 260px;
     margin-left: auto;
     margin-top: 0;
 
 }
-.profile-container header button{
+.profile-containercli header button{
     height: 60px;
     width: 60px;
     border-radius: 4px;
@@ -33,51 +33,51 @@
     transition: border-color 0.2s;
 
 }
-.profile-container header button:hover {
+.profile-containercli header button:hover {
     border-color: #999;
 }
-.profile-container h1 {
+.profile-containercli h1 {
     margin-top: 80px;
     margin-bottom: 24px;
 }
-.profile-container ul {
+.profile-containercli ul {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap : 24px;
     list-style: none;
 }
-.profile-container ul li {
+.profile-containercli ul li {
     background: #FFF;
     padding: 24px;
     border-radius: 8px;
     position: relative;
 }
-.profile-container ul li button {
+.profile-containercli ul li button {
     position: absolute;
     right: 24px;
     top: 24px;
     border: 0;
     transition: border-color 0.2s;
 }
-.profile-container ul li .button2 {
+.profile-containercli ul li .button2 {
     position: absolute;
     right: 54px;
     top: 24px;
     border: 0;
     transition: border-color 0.2s;
 }
-.profile-container ul li button:hover{
+.profile-containercli ul li button:hover{
     opacity:0.8
 }
-.profile-container ul li strong {
+.profile-containercli ul li strong {
     display: block;
     margin-bottom: 16px;
     color: #41414d;
 }
-.profile-container ul li p + strong{
+.profile-containercli ul li p + strong{
     margin-top : 32px ;
 }
-.profile-container ul li p {
+.profile-containercli ul li p {
     color: #737380;
     line-height : 21px;
     font-size : 16px;

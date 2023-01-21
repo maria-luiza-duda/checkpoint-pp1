@@ -73,7 +73,7 @@ export default function ClienteNew() {
   return (
     <div>
     {modalVisible ? <Modal onClose={() => setModalVisible(false)} title={mensagemModal} /> : null}
-    <div className="new-vaga-container">
+    <div className="new-vaga-containerped">
       <div className="conteiner">
         <section>
           <img src={logoImg} alt="Be The Hero" />

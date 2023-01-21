@@ -39,7 +39,7 @@ export default function NewIncident() {
 
   return (
     <div>
-    <div className="new-vaga-container">
+    <div className="new-vaga-containercheck">
       <div className="conteiner">
         <section>
           <img src={logoImg} alt="Checkpoint" />

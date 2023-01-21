@@ -45,7 +45,7 @@ function FazerPedido() {
     }
   }
   return (
-    <div className="profile-container">
+    <div className="profile-containerprod">  { /* utilziando class/css de listar produtos */ }
       <header>
         <img src={logoImg} alt="Checkpoint" />
         <span>Bem vinda, {empresaName}</span>

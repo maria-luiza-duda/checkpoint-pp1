@@ -55,7 +55,7 @@ export default function Entrega() {
     localStorage.setItem('idEntrega', id);
   }
   return (
-    <div className="profile-container">
+    <div className="profile-containerent">
       <header>
         <img src={logoImg} alt="Checkpoint" />
         <span>Bem vinda, {empresaName}</span>
